@@ -1,0 +1,27 @@
+* {
+    margin: 0%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    .chart {
+        height: 80vh;
+        // border: 1px black solid;
+    }
+
+    .member {
+        height: 80vh;
+        // border: 1px black solid;
+    }
+
+    .chart-input {
+        height: 20vh;
+        // border: 1px black solid;
+    }
+
+    .profile {
+        height: 20vh;
+        // border: 1px black solid;
+    }
+}
