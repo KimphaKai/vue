@@ -1,0 +1,31 @@
+* {
+  margin: 0%;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 1fr;
+      grid-template-columns: 4fr 1fr;
+}
+
+.content .chart {
+  background-color: #353030;
+  height: 80vh;
+}
+
+.content .member {
+  background-color: #242121;
+  height: 80vh;
+}
+
+.content .chart-input {
+  background-color: wheat;
+  height: 20vh;
+}
+
+.content .profile {
+  background-color: aquamarine;
+  height: 20vh;
+}
+/*# sourceMappingURL=style.css.map */
